@@ -1,0 +1,50 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &__user {
+    display: flex;
+    gap: 10px;
+    color: #b8b8b8;
+    align-items: center;
+    &-circle {
+      border-radius: 50%;
+      background-color: #191919;
+      width: 36px;
+      display: grid;
+      place-content: center;
+      height: 36px;
+    }
+  }
+  &__input {
+    color: #b8b8b8;
+    width: 303px;
+    height: 27px;
+    position: relative;
+    align-items: center;
+    background-color: #191919;
+    .search-icon {
+      padding: 7.3px 10px 0;
+      display: block;
+      position: absolute;
+      color: black;
+      z-index: 1;
+    }
+    .header-search {
+      padding-left: 25px;
+      font-family: "Montserrat";
+      font-weight: 400;
+      background-color: #191919;
+      font-size: 9px;
+      position: absolute;
+      width: 100%;
+      outline-color: #212121;
+      border: none;
+      height: 100%;
+    }
+  }
+  &__logos {
+    display: flex;
+    gap: 21px;
+  }
+}

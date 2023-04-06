@@ -1,0 +1,51 @@
+.big__sale {
+  display: flex;
+  &__nav,
+  &__title {
+    background: #191919;
+  }
+  &__nav {
+    width: 24.3%;
+    height: 423px;
+    padding: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    .big__sale_list {
+      max-width: 100px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    &-title {
+      color: white;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      margin-bottom: 32px;
+    }
+    .big__sale_item:hover {
+      color: #8b57c6;
+    }
+    .big__sale_item {
+      font-weight: 500;
+      font-size: 14px;
+      color: #576067;
+    }
+  }
+  .df {
+    width: 100%;
+    justify-content: space-between;
+  }
+  &_bottom-btn {
+    font-weight: 500;
+    font-size: 14px;
+    color: #576067;
+  }
+  flex-wrap: wrap;
+  justify-content: space-between;
+  &__title {
+    width: 74.3%;
+    height: 423px;
+  }
+}
