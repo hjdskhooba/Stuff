@@ -9,5 +9,9 @@
     &_icons{
         display: flex;
         gap: 16px;
+        .icon:hover{
+            cursor: pointer;
+            filter: invert(30%) sepia(90%) saturate(2265%) hue-rotate(253deg) brightness(89%) contrast(80%);
+        } 
     }
 }

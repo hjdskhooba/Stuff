@@ -17,3 +17,8 @@
   display: flex;
   gap: 16px;
 }
+.footer_icons .icon:hover {
+  cursor: pointer;
+  -webkit-filter: invert(30%) sepia(90%) saturate(2265%) hue-rotate(253deg) brightness(89%) contrast(80%);
+          filter: invert(30%) sepia(90%) saturate(2265%) hue-rotate(253deg) brightness(89%) contrast(80%);
+}
