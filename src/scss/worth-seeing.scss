@@ -1,0 +1,30 @@
+.worth-seeing{
+    border-radius: 6px;
+    padding: 25px 22px;
+    background-color: #191919;
+    min-height: 370px;
+    margin: 20px 0;
+    color: #fff;
+    &__cards::-webkit-scrollbar{
+        width: 0;
+        height: 0;
+    }
+    &__cards{
+        height: max-content;
+        gap: 11px;
+        display: flex;
+        overflow-x: auto;
+    }
+    .card{
+        height: max-content;
+        background: transparent;
+        border-radius: 0px;
+    }
+    &_card-title{
+        margin: 20px 0 6px;
+        text-align: center;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+    }
+}

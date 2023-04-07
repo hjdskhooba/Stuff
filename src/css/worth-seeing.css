@@ -1,0 +1,36 @@
+.worth-seeing {
+  border-radius: 6px;
+  padding: 25px 22px;
+  background-color: #191919;
+  min-height: 370px;
+  margin: 20px 0;
+  color: #fff;
+}
+.worth-seeing__cards::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+.worth-seeing__cards {
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  gap: 11px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow-x: auto;
+}
+.worth-seeing .card {
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  background: transparent;
+  border-radius: 0px;
+}
+.worth-seeing_card-title {
+  margin: 20px 0 6px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+}

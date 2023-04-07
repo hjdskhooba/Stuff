@@ -1,0 +1,83 @@
+.new-year {
+  border-radius: 6px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 570px;
+}
+.new-year__info {
+  min-width: 50%;
+  position: relative;
+  text-align: center;
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
+  background: #191919;
+}
+.new-year__info-mes.top {
+  font-weight: 300;
+  font-size: 70px;
+  text-align: center;
+  color: #6c3eb8;
+  z-index: 3;
+}
+.new-year__info-mes.bottom {
+  font-weight: 300;
+  font-size: 150px;
+  z-index: 3;
+  text-align: center;
+  color: #6c3eb8;
+}
+@media (max-width: 2000px) {
+  .new-year__info-mes.bottom {
+    font-size: 10.5485232068vw;
+  }
+  .new-year__info-mes.top {
+    font-size: 4.9226441632vw;
+  }
+}
+.new-year__info .btn {
+  width: 138px;
+  height: 42px;
+  margin: 0 auto;
+}
+.new-year__info-fly {
+  position: absolute;
+}
+.new-year__info-fly.play {
+  z-index: 2;
+  width: 44%;
+  bottom: 0;
+  right: 0;
+  -webkit-transform: translateX(19px);
+          transform: translateX(19px);
+}
+.new-year__info-fly.shoe {
+  bottom: 110px;
+  width: 37%;
+  -webkit-transform: translateX(-30px);
+          transform: translateX(-30px);
+  left: 0;
+}
+.new-year__image {
+  position: relative;
+  width: 100%;
+}
+.new-year__image-img {
+  display: -ms-grid;
+  display: grid;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+}
+.new-year__image-text {
+  position: absolute;
+  bottom: 0;
+  font-weight: 500;
+  font-size: 20px;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 24px;
+  line-height: 24px;
+  color: #212123;
+}

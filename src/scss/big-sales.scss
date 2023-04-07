@@ -1,5 +1,6 @@
 .big__sale {
   display: flex;
+  border-radius: 6px;
   &__nav,
   &__title {
     background: #191919;
@@ -29,8 +30,12 @@
     }
     .big__sale_item {
       font-weight: 500;
+      cursor: pointer;
       font-size: 14px;
       color: #576067;
+    }
+    .link {
+      text-decoration: underline;
     }
   }
   .df {
@@ -45,7 +50,66 @@
   flex-wrap: wrap;
   justify-content: space-between;
   &__title {
-    width: 74.3%;
+    padding: 0 32px;
+    max-width: 74.3%;
     height: 423px;
+    position: relative;
+    &-backtext {
+      position: absolute;
+      font-style: normal;
+      display: flex;
+      font-weight: 900;
+      font-size: 113.5px;
+      color: #212123;
+    }
+    &-desc,
+    &-subtitle,
+    .btn {
+      position: relative;
+      z-index: 1;
+    }
+    &_text {
+      .duv {
+        margin-top: 20%;
+      }
+      width: 100%;
+    }
+    &-desc {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 20px;
+      text-transform: uppercase;
+      color: #616e74;
+    }
+    &-subtitle {
+      font-weight: 700;
+      font-size: 37px;
+      line-height: 51px;
+      text-transform: uppercase;
+      color: #f6f6f7;
+    }
+    &-img {
+      width: 50%;
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      transform: translateY(13px);
+    }
   }
+}
+.btn:active {
+  cursor: default;
+}
+.btn {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 9px 20px;
+  background: #6c3eb8;
+  border-radius: 6px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: #ffffff;
+  margin-top: 13px;
 }

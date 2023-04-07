@@ -2,6 +2,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  border-radius: 6px;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   -webkit-box-pack: justify;
@@ -44,8 +45,12 @@
 }
 .big__sale__nav .big__sale_item {
   font-weight: 500;
+  cursor: pointer;
   font-size: 14px;
   color: #576067;
+}
+.big__sale__nav .link {
+  text-decoration: underline;
 }
 .big__sale .df {
   width: 100%;
@@ -59,6 +64,69 @@
   color: #576067;
 }
 .big__sale__title {
-  width: 74.3%;
+  padding: 0 32px;
+  max-width: 74.3%;
   height: 423px;
+  position: relative;
+}
+.big__sale__title-backtext {
+  position: absolute;
+  font-style: normal;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-weight: 900;
+  font-size: 113.5px;
+  color: #212123;
+}
+.big__sale__title-desc, .big__sale__title-subtitle,
+.big__sale__title .btn {
+  position: relative;
+  z-index: 1;
+}
+.big__sale__title_text {
+  width: 100%;
+}
+.big__sale__title_text .duv {
+  margin-top: 20%;
+}
+.big__sale__title-desc {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #616e74;
+}
+.big__sale__title-subtitle {
+  font-weight: 700;
+  font-size: 37px;
+  line-height: 51px;
+  text-transform: uppercase;
+  color: #f6f6f7;
+}
+.big__sale__title-img {
+  width: 50%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  -webkit-transform: translateY(13px);
+          transform: translateY(13px);
+}
+
+.btn:active {
+  cursor: default;
+}
+
+.btn {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 9px 20px;
+  background: #6c3eb8;
+  border-radius: 6px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: #ffffff;
+  margin-top: 13px;
 }
