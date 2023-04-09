@@ -7,7 +7,7 @@
   }
   &__nav {
     width: 24.3%;
-    height: 423px;
+    height: 423px; 
     padding: 25px;
     display: flex;
     flex-wrap: wrap;
@@ -42,7 +42,12 @@
     width: 100%;
     justify-content: space-between;
   }
+  &_bottom-btn:active{
+    cursor: default;
+    color: #8b57c6;
+  }
   &_bottom-btn {
+    cursor: pointer;
     font-weight: 500;
     font-size: 14px;
     color: #576067;

@@ -1,0 +1,14 @@
+{
+  "name": "stuff",
+  "version": "1.0.0",
+  "description": "A shop with everything + working with data",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "json-server --watch db.json"
+  },
+  "keywords": [],
+  "author": "Baigeldy Sultanov",
+  "license": "ISC"
+}

@@ -58,7 +58,12 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
+.big__sale_bottom-btn:active {
+  cursor: default;
+  color: #8b57c6;
+}
 .big__sale_bottom-btn {
+  cursor: pointer;
   font-weight: 500;
   font-size: 14px;
   color: #576067;

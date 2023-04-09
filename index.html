@@ -13,7 +13,7 @@
     <div class="container">
         <header class="header">
             <h1 class="header__title">
-                <img src="./images/header/logo.svg" alt="">
+                <img src="./images/header/logo.svg" class="logo" alt="">
             </h1>
             <div class="header__user">
                 <div class="header__user-circle">
@@ -21,14 +21,14 @@
                 </div>
                 <p class="header__user-name">Yana Tamkovich</p>
             </div>
-            <div class="header__input">
+            <form class="header__input">
                 <img src="./images/header/header-search.svg" class="search-icon" alt="">
                 <input type="text" aria-label="d" class="header-search" placeholder="Search for anything..." name=""
                     id="">
-            </div>
+            </form>
             <div class="header__logos">
-                <img src="./images/header/header-notif.svg" alt="">
-                <img src="./images/header/header-heart.svg" alt="">
+                <img class="img" src="./images/header/header-notif.svg" alt="">
+                <img class="img" src="./images/header/header-heart.svg" alt="">
             </div>
         </header>
         <section class="big__sale">
@@ -65,126 +65,36 @@
         <section class="trending">
             <h2 class="title">Trending</h2>
             <div class="trending__items">
-                <div class="card">
-                    <img class="card-img"
-                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTM92z8slNSyjiKnPj1u3SNaM6VsMu_FtITmg&usqp=CAU"
-                        width="230px" height="110px" alt="">
-                    <div class="card_info">
-                        <div class="card_info-top">
-                            <h3 class="card-title">Nike ZoomX 2023</h3>
-                            <p class="card-category">Sneakers</p>
-                        </div>
-                        <div class="card_info_bottom df">
-                            <div class="df">
-                                <span class="price">99$</span>
-                                <small class="old-price">77$</small>
-                            </div>
-                            <small class="people">19 people purchased</small>
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="card-img"
-                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTM92z8slNSyjiKnPj1u3SNaM6VsMu_FtITmg&usqp=CAU"
-                        width="230px" height="110px" alt="">
-                    <div class="card_info">
-                        <div class="card_info-top">
-                            <h3 class="card-title">Nike ZoomX 2023</h3>
-                            <p class="card-category">Sneakers</p>
-                        </div>
-                        <div class="card_info_bottom df">
-                            <div class="df">
-                                <span class="price">99$</span>
-                                <small class="old-price">77$</small>
-                            </div>
-                            <small class="people">19 people purchased</small>
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="card-img"
-                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTM92z8slNSyjiKnPj1u3SNaM6VsMu_FtITmg&usqp=CAU"
-                        width="230px" height="110px" alt="">
-                    <div class="card_info">
-                        <div class="card_info-top">
-                            <h3 class="card-title">Nike ZoomX 2023</h3>
-                            <p class="card-category">Sneakers</p>
-                        </div>
-                        <div class="card_info_bottom df">
-                            <div class="df">
-                                <span class="price">99$</span>
-                                <small class="old-price">77$</small>
-                            </div>
-                            <small class="people">19 people purchased</small>
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="card-img"
-                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTM92z8slNSyjiKnPj1u3SNaM6VsMu_FtITmg&usqp=CAU"
-                        width="230px" height="110px" alt="">
-                    <div class="card_info">
-                        <div class="card_info-top">
-                            <h3 class="card-title">Nike ZoomX 2023</h3>
-                            <p class="card-category">Sneakers</p>
-                        </div>
-                        <div class="card_info_bottom df">
-                            <div class="df">
-                                <span class="price">99$</span>
-                                <small class="old-price">77$</small>
-                            </div>
-                            <small class="people">19 people purchased</small>
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="card-img"
-                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTM92z8slNSyjiKnPj1u3SNaM6VsMu_FtITmg&usqp=CAU"
-                        width="230px" height="110px" alt="">
-                    <div class="card_info">
-                        <div class="card_info-top">
-                            <h3 class="card-title">Nike ZoomX 2023</h3>
-                            <p class="card-category">Sneakers</p>
-                        </div>
-                        <div class="card_info_bottom df">
-                            <div class="df">
-                                <span class="price">99$</span>
-                                <small class="old-price">77$</small>
-                            </div>
-                            <small class="people">19 people purchased</small>
-                        </div>
-                    </div>
-                </div>
             </div>
             <button class="btn">See more</button>
         </section>
         <section class="worth-seeing">
-            <h2 class="title">Worth seeing</h2>
+            <h2 class="title">Categories</h2>
             <div class="worth-seeing__cards">
                 <div class="card">
-                    <img src="https://avatars.mds.yandex.net/get-images-cbir/9510176/acYE_VMnvXfDSC50-i8F_Q9594/ocr"
+                    <img src="https://oldnavy.gap.com/Asset_Archive/ONWeb/content/0029/704/378/assets/230301_98_M3022_M_DP_NewArrivals.jpg"
                         width="230px" height="230px" alt="worth-seeing-item-img" class="card--img">
-                    <p class="worth-seeing_card-title">Sneakers</p>
+                    <p class="worth-seeing_card-title">Men's clothing</p>
                 </div>
                 <div class="card">
-                    <img src="https://avatars.mds.yandex.net/get-images-cbir/9510176/acYE_VMnvXfDSC50-i8F_Q9594/ocr"
+                    <img src="https://cdn.shopify.com/s/files/1/1223/0734/files/sakura-pendant-set-olive-green-necklace-sets-blingvine-359847_360x-tinified_360x.jpg?v=1644915479"
                         width="230px" height="230px" alt="worth-seeing-item-img" class="card--img">
-                    <p class="worth-seeing_card-title">Sneakers</p>
+                    <p class="worth-seeing_card-title">Jewellery</p>
                 </div>
                 <div class="card">
-                    <img src="https://avatars.mds.yandex.net/get-images-cbir/9510176/acYE_VMnvXfDSC50-i8F_Q9594/ocr"
+                    <img src="https://image.s5a.com/is/image/TheBay/214_042922_VISUAL-NAV_ELECTRONICS_Shop_by_Category_1_Cellphone-Accessories?scl=1&qlt=76&fmt=webp"
                         width="230px" height="230px" alt="worth-seeing-item-img" class="card--img">
-                    <p class="worth-seeing_card-title">Sneakers</p>
+                    <p class="worth-seeing_card-title">Electronics</p>
                 </div>
                 <div class="card">
-                    <img src="https://avatars.mds.yandex.net/get-images-cbir/9510176/acYE_VMnvXfDSC50-i8F_Q9594/ocr"
+                    <img src="https://rukminim1.flixcart.com/image/612/612/xif0q/shoe/g/c/o/9-rockey-9-magnolia-white-original-imaggutpbvcczyhf.jpeg?q=70"
                         width="230px" height="230px" alt="worth-seeing-item-img" class="card--img">
-                    <p class="worth-seeing_card-title">Sneakers</p>
+                    <p class="worth-seeing_card-title">Shoes</p>
                 </div>
                 <div class="card">
-                    <img src="https://avatars.mds.yandex.net/get-images-cbir/9510176/acYE_VMnvXfDSC50-i8F_Q9594/ocr"
+                    <img src="https://www.next.us/nxtcms/resource/blob/5487356/8e9602c26f28a976fbf055280649e8e4/prints-data.jpg"
                         width="230px" height="230px" alt="worth-seeing-item-img" class="card--img">
-                    <p class="worth-seeing_card-title">Sneakers</p>
+                    <p class="worth-seeing_card-title">Woman's clothing</p>
                 </div>
             </div>
         </section>
@@ -203,110 +113,23 @@
         </section>
         <section class="trending">
             <h2 class="title">Less than 100$</h2>
-            <div class="trending__items">
-                <div class="card">
-                    <img class="card-img"
-                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTM92z8slNSyjiKnPj1u3SNaM6VsMu_FtITmg&usqp=CAU"
-                        width="230px" height="110px" alt="">
-                    <div class="card_info">
-                        <div class="card_info-top">
-                            <h3 class="card-title">Nike ZoomX 2023</h3>
-                            <p class="card-category">Sneakers</p>
-                        </div>
-                        <div class="card_info_bottom df">
-                            <div class="df">
-                                <span class="price">99$</span>
-                                <small class="old-price">77$</small>
-                            </div>
-                            <small class="people">19 people purchased</small>
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="card-img"
-                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTM92z8slNSyjiKnPj1u3SNaM6VsMu_FtITmg&usqp=CAU"
-                        width="230px" height="110px" alt="">
-                    <div class="card_info">
-                        <div class="card_info-top">
-                            <h3 class="card-title">Nike ZoomX 2023</h3>
-                            <p class="card-category">Sneakers</p>
-                        </div>
-                        <div class="card_info_bottom df">
-                            <div class="df">
-                                <span class="price">99$</span>
-                                <small class="old-price">77$</small>
-                            </div>
-                            <small class="people">19 people purchased</small>
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="card-img"
-                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTM92z8slNSyjiKnPj1u3SNaM6VsMu_FtITmg&usqp=CAU"
-                        width="230px" height="110px" alt="">
-                    <div class="card_info">
-                        <div class="card_info-top">
-                            <h3 class="card-title">Nike ZoomX 2023</h3>
-                            <p class="card-category">Sneakers</p>
-                        </div>
-                        <div class="card_info_bottom df">
-                            <div class="df">
-                                <span class="price">99$</span>
-                                <small class="old-price">77$</small>
-                            </div>
-                            <small class="people">19 people purchased</small>
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="card-img"
-                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTM92z8slNSyjiKnPj1u3SNaM6VsMu_FtITmg&usqp=CAU"
-                        width="230px" height="110px" alt="">
-                    <div class="card_info">
-                        <div class="card_info-top">
-                            <h3 class="card-title">Nike ZoomX 2023</h3>
-                            <p class="card-category">Sneakers</p>
-                        </div>
-                        <div class="card_info_bottom df">
-                            <div class="df">
-                                <span class="price">99$</span>
-                                <small class="old-price">77$</small>
-                            </div>
-                            <small class="people">19 people purchased</small>
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="card-img"
-                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTM92z8slNSyjiKnPj1u3SNaM6VsMu_FtITmg&usqp=CAU"
-                        width="230px" height="110px" alt="">
-                    <div class="card_info">
-                        <div class="card_info-top">
-                            <h3 class="card-title">Nike ZoomX 2023</h3>
-                            <p class="card-category">Sneakers</p>
-                        </div>
-                        <div class="card_info_bottom df">
-                            <div class="df">
-                                <span class="price">99$</span>
-                                <small class="old-price">77$</small>
-                            </div>
-                            <small class="people">19 people purchased</small>
-                        </div>
-                    </div>
-                </div>
+            <div class="trending__items underHundred">
             </div>
             <button class="btn">See more</button>
         </section>
         <footer class="footer df">
             <img src="./images/header/logo.svg" width="61px" height="25px" alt="">
-            <p class="footer-center">Developed by <a href="https://www.linkedin.com/in/%D0%B1%D0%B0%D0%B9%D0%B3%D0%B5%D0%BB%D0%B4%D0%B8-%D0%B0%D0%B1%D0%B4%D1%8B%D1%85%D0%B0%D1%88%D0%B8%D0%BC-%D1%83%D1%83%D0%BB%D1%83-549467257/" target="_blank">baki</a></p>
+            <p class="footer-center">Developed by <a
+                    href="https://www.linkedin.com/in/%D0%B1%D0%B0%D0%B9%D0%B3%D0%B5%D0%BB%D0%B4%D0%B8-%D0%B0%D0%B1%D0%B4%D1%8B%D1%85%D0%B0%D1%88%D0%B8%D0%BC-%D1%83%D1%83%D0%BB%D1%83-549467257/"
+                    target="_blank">baki</a></p>
             <div class="footer_icons">
-                <img src="./images/footer/youtube.svg" alt=""   class="icon">
-                <img src="./images/footer/facebook.svg" alt=""  class="icon">
+                <img src="./images/footer/youtube.svg" alt="" class="icon">
+                <img src="./images/footer/facebook.svg" alt="" class="icon">
                 <img src="./images/footer/instagram.svg" alt="" class="icon">
             </div>
         </footer>
     </div>
+    <script src="./src/js/main.js"></script>
 </body>
 
 </html>

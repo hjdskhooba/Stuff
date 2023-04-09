@@ -1,3 +1,7 @@
+.header.product {
+  margin-top: 13px;
+}
+
 .header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -9,6 +13,17 @@
       -ms-flex-align: center;
           align-items: center;
   margin-bottom: 20px;
+}
+.header__user:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+.header .logo:active {
+  cursor: default;
+  opacity: 0.9;
+}
+.header .logo {
+  cursor: pointer;
 }
 .header__user {
   display: -webkit-box;
@@ -40,7 +55,8 @@
   background-color: #191919;
 }
 .header__input .search-icon {
-  padding: 7.3px 10px 0;
+  cursor: pointer;
+  padding: 7px 10px 0;
   display: block;
   position: absolute;
   color: black;
@@ -51,8 +67,9 @@
   font-family: "Montserrat";
   font-weight: 400;
   background-color: #191919;
-  font-size: 9px;
+  font-size: 16px;
   position: absolute;
+  color: white;
   width: 100%;
   outline-color: #212121;
   border: none;
@@ -63,4 +80,11 @@
   display: -ms-flexbox;
   display: flex;
   gap: 21px;
+}
+.header__logos .img:hover {
+  -webkit-filter: invert(30%) sepia(90%) saturate(2265%) hue-rotate(253deg) brightness(89%) contrast(80%);
+          filter: invert(30%) sepia(90%) saturate(2265%) hue-rotate(253deg) brightness(89%) contrast(80%);
+}
+.header__logos .img {
+  cursor: pointer;
 }
