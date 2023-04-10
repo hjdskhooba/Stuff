@@ -10,5 +10,8 @@
   },
   "keywords": [],
   "author": "Baigeldy Sultanov",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "fast-average-color": "^9.3.0"
+  }
 }

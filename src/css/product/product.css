@@ -203,6 +203,15 @@
   text-transform: capitalize;
   color: #576067;
 }
+.product-page .product__body .product__info_info .product_color .color,
+.product-page .product__body .product__info_info .product_sizes .color {
+  width: 30px;
+  height: 17.19px;
+}
+.product-page .product__body .product__info_info .product_color .yellow,
+.product-page .product__body .product__info_info .product_sizes .yellow {
+  color: gold;
+}
 .product-page .product__body .product__info_info .add-to-cart {
   margin-right: 5px;
 }
