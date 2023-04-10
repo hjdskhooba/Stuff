@@ -8,7 +8,7 @@
 @import "./main/footer.css";
 // main
 // product
-@import "product.css";
+@import "./product/product.css";
 // product
 * {
   margin: 0;
@@ -20,9 +20,6 @@
 }
 body {
   background: #212123;
-}
-.df {
-  display: flex;
 }
 .container {
   padding: 0 30px;

@@ -1,3 +1,9 @@
+.df {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .big__sale {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -120,6 +126,8 @@
 
 .btn:active {
   cursor: default;
+  background: #576067;
+  color: #B8B8B8;
 }
 
 .btn {

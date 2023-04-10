@@ -1,3 +1,6 @@
+.df {
+  display: flex;
+}
 .big__sale {
   display: flex;
   border-radius: 6px;
@@ -104,6 +107,8 @@
 }
 .btn:active {
   cursor: default;
+  background: #576067;
+  color: #B8B8B8;
 }
 .btn {
   font-weight: 600;
