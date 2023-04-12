@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,13 +7,11 @@
     <link rel="stylesheet" href="../css/style.css">
     <title>Stuff</title>
 </head>
-
 <body>
     <div class="container">
-        <header class="header product">
+        <header class="header">
             <h1 class="header__title">
-                <a href="../../index.html"
-                ><img src="../../images/header/logo.svg" class="logo" alt=""></a>
+                <img src="../../images/header/logo.svg" class="logo" alt="">
             </h1>
             <div class="header__user">
                 <div class="header__user-circle">
@@ -24,15 +21,15 @@
             </div>
             <form class="header__input">
                 <img src="../../images/header/header-search.svg" class="search-icon" alt="">
-                <input type="text" aria-label="idk" class="header-search" placeholder="Search for anything...">
+                <input type="text" aria-label="d" class="header-search" placeholder="Search for anything...">
             </form>
             <div class="header__logos">
-                <a href="./favorites.html"
+                <a href="../../src/pages/favorites.html"
                 ><img class="img" src="../../images/header/header-notif.svg" alt=""></a>
                 <img class="img" src="../../images/header/header-heart.svg" alt="">
             </div>
         </header>
-        <section class="product-page">
+        <section class="big__sale">
             <div class="big__sale__nav">
                 <div class="div">
                     <h4 class="subtitle big__sale__nav-title">CATEGORIES</h4>
@@ -46,30 +43,36 @@
                         <li class="big__sale_item">Automotive</li>
                     </ul>
                 </div>
-                <div class="df flexx">
+                <div class="df">
                     <p class="big__sale_bottom-btn">Help</p>
                     <p class="big__sale_bottom-btn link">Terms & Conditions</p>
                 </div>
             </div>
-            <div class="product__body df">
-
+            <div class="big__sale__title df">
+                <div class="big__sale__title_text">
+                    <h1 class="big__sale__title-backtext">BIG SALE 20%</h1>
+                    <div class="duv">
+                        <p class="big__sale__title-desc">the bestseller of 2022 </p>
+                        <h2 class="big__sale__title-subtitle">Lennon r2d2 <br> with nvidia 5090 ti </h2>
+                        <button class="btn">Shop Now</button>
+                    </div>
+                </div>
+                <img src="../../images/big-sale-pc.png" alt="" class="big__sale__title-img">
             </div>
         </section>
-        <footer class="footer product df">
-            <img src="../../images/header/logo.svg" width="61px" height="25px" alt="">
-            <p class="footer-center">Developed by <a
-                    href="https://www.linkedin.com/in/%D0%B1%D0%B0%D0%B9%D0%B3%D0%B5%D0%BB%D0%B4%D0%B8-%D0%B0%D0%B1%D0%B4%D1%8B%D1%85%D0%B0%D1%88%D0%B8%D0%BC-%D1%83%D1%83%D0%BB%D1%83-549467257/"
-                    target="_blank">baki</a></p>
-            <div class="footer_icons">
-                <img src="../../images/footer/youtube.svg" alt="" class="icon">
-                <img src="../../images/footer/facebook.svg" alt="" class="icon">
-                <img src="../../images/footer/instagram.svg" alt="" class="icon">
+        <section class="trending">
+            <h2 class="title">Trending</h2>
+            <form class="product-name">
+                <input type="text" aria-label="aria-label" placeholder="Product name">
+                <input type="number" aria-label="aria-label" placeholder="Price from">
+            </form>
+            <br>
+            <div class="trending__items catalog">
             </div>
-        </footer>
+            <button class="btn">See more</button>
+        </section>
     </div>
     <script src="../js/main.js"></script>
-    <script src="../js/product.js" type="module"></script>
-    <script src="https://unpkg.com/fast-average-color/dist/index.browser.min.js"></script>
+    <script src="../js/catalog.js"></script>
 </body>
-
 </html>

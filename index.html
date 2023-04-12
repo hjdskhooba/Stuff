@@ -13,7 +13,8 @@
     <div class="container">
         <header class="header">
             <h1 class="header__title">
-                <img src="./images/header/logo.svg" class="logo" alt="">
+                <a href="./index.html"
+                ><img src="./images/header/logo.svg" class="logo" alt=""></a>
             </h1>
             <div class="header__user">
                 <div class="header__user-circle">
@@ -23,11 +24,11 @@
             </div>
             <form class="header__input">
                 <img src="./images/header/header-search.svg" class="search-icon" alt="">
-                <input type="text" aria-label="d" class="header-search" placeholder="Search for anything..." name=""
-                    id="">
+                <input type="text" aria-label="d" class="header-search" placeholder="Search for anything...">
             </form>
             <div class="header__logos">
-                <img class="img" src="./images/header/header-notif.svg" alt="">
+                <a href="./src/pages/favorites.html"
+                ><img class="img" src="./images/header/header-notif.svg" alt=""></a>
                 <img class="img" src="./images/header/header-heart.svg" alt="">
             </div>
         </header>
@@ -56,7 +57,7 @@
                     <div class="duv">
                         <p class="big__sale__title-desc">the bestseller of 2022 </p>
                         <h2 class="big__sale__title-subtitle">Lennon r2d2 <br> with nvidia 5090 ti </h2>
-                        <button class="btn">Shop Now</button>
+                        <a href="./src/pages/catalog.html"><button class="btn">Shop Now</button></a>
                     </div>
                 </div>
                 <img src="./images/big-sale-pc.png" alt="" class="big__sale__title-img">
@@ -130,6 +131,8 @@
         </footer>
     </div>
     <script src="./src/js/main.js" type="module"></script>
+    <script src="./src/js/product.js" type="module"></script>
+    <script src="./src/js/favorites.js" type="module"></script>
 </body>
 
 </html>
