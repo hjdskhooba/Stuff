@@ -1,5 +1,6 @@
 let trendingItems = document.querySelector(".trending__items");
 let underHundred = document.querySelector(".trending__items.underHundred");
+let catalogItems = document.querySelector(".trending__items.catalog");
 let form = document.querySelector(".header__input");
 let favoritesData = [];
 let cartData = [];
@@ -88,6 +89,7 @@ const openProduct = (cardHTML) => {
   });
 };
 
+const getCatalogCards = getCards(catalogItems, "");
 const getTrendingCards = getCards(trendingItems, "_sort=rating.rate&_order=desc&_limit=5");
 const getCheapProducts = getCards(underHundred, "price_lte=100");
 getTrendingCards;
