@@ -21,10 +21,22 @@
 }
 
 .pagination-x {
-  overflow: hidden;
+  overflow-y: hidden;
+  max-height: 450px;
 }
 
-.trending__items.catalog::-webkit-scrollbar {
+.catalog::-webkit-scrollbar,
+.pagination-x::-webkit-scrollbar {
   width: 0;
   height: 0;
+}
+
+.catalog {
+  overflow: hidden;
+  max-height: 450px;
+}
+@media (max-width: 1280px) {
+  .catalog {
+    overflow-x: auto;
+  }
 }

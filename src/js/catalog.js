@@ -1,10 +1,11 @@
 let paginationBtns = document.querySelector(".pagination_btns");
-let catalog = document.querySelector(".trending__items.catalog");
+let catalog = document.querySelector(".catalog");
+const getCatalogCards = getCards(catalog, "");
 let page = 1;
 
 const getProductsCount = (cardsOnScreen = 5) => {
   paginationBtns.innerHTML = "";
-  fetch("http://localhost:3000/products")
+  fetch("http://localhost:3000/products?")
     .then((res) => res.json())
     .then((res) => {
       let arr = [];
@@ -21,6 +22,9 @@ const getProductsCount = (cardsOnScreen = 5) => {
           arr[btn.innerHTML - 1].map((item) => item.scrollIntoView());
         });
       });
+      // catalog.style.minWidth = `${Math.floor(res.length += "0")+19.75}%`
     });
 };
+
 getProductsCount();
+getCatalogCards;
