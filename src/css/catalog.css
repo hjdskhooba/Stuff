@@ -1,0 +1,21 @@
+.pagination_btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  gap: 4.3px;
+}
+.pagination_btns .btn {
+  width: 33px;
+  height: 25px;
+  padding: 0;
+}

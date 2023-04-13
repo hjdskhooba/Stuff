@@ -1,1 +1,13 @@
- 
+.pagination_btns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: fit-content;
+    gap: 4.3px;
+    .btn{
+        width: 33px;
+        height: 25px;
+        padding: 0;
+    }
+}

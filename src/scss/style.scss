@@ -6,10 +6,12 @@
 @import "./main/worth-seeing.css";
 @import "./main/new-year.css";
 @import "./main/footer.css";
-// main
 // product
 @import "./product/product.css";
-// product
+// favorites
+@import "./favorites.css";
+// catalog
+@import "./catalog.css";
 * {
   margin: 0;
   padding: 0;

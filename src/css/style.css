@@ -6,6 +6,8 @@
 @import "./main/new-year.css";
 @import "./main/footer.css";
 @import "./product/product.css";
+@import "./favorites.css";
+@import "./catalog.css";
 * {
   margin: 0;
   padding: 0;
