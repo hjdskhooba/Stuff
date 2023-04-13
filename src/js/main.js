@@ -88,7 +88,7 @@ const openProduct = (cardHTML) => {
   });
 };
 
-const getTrendingCards = getCards(trendingItems, "");
+const getTrendingCards = getCards(trendingItems, "_sort=rating.rate&_order=desc&_limit=5");
 const getCheapProducts = getCards(underHundred, "price_lte=100");
 getTrendingCards;
 getCheapProducts;
