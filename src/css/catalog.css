@@ -19,3 +19,12 @@
   height: 25px;
   padding: 0;
 }
+
+.pagination-x {
+  overflow: hidden;
+}
+
+.trending__items.catalog::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}

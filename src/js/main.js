@@ -1,11 +1,11 @@
 let trendingItems = document.querySelector(".trending__items");
 let underHundred = document.querySelector(".trending__items.underHundred");
 let form = document.querySelector(".header__input");
-let searchText = "";
-let id = [1];
 let favoritesData = [];
-let cardHTML;
 let cartData = [];
+let searchText = "";
+let cardHTML;
+let id = [1];
 
 if (
   window.location.pathname.includes("favorites") == false &&
@@ -79,11 +79,11 @@ const openProduct = (cardHTML) => {
       switch (window.location.pathname) {
         case "/index.html":
           window.location.href = `/src/pages/product.html?id=${id}`;
-          case "/src/pages/catalog.html":
+        case "/src/pages/catalog.html":
           window.localStorage.href = `/src/pages/product.html?id=${id}`;
         default:
           window.location.href = `/src/pages/product.html?id=${id}`;
-        }
+      }
     });
   });
 };
