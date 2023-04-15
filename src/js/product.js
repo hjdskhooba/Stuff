@@ -57,7 +57,7 @@ const getProductCard = () => {
                             </div>
                         </div>
                         <p class="product_description">
-                            ${card.description}
+                            ${card.description.replace(/,/gi, ", ").replace(/[/]/gi, "/ ")}
                         </p>
                         <button class="add-to-cart btn">Add to cart</button>
                         <button class="add-to-favorites btn">Add to favorites</button>
@@ -82,8 +82,7 @@ const getProductCard = () => {
         });
         fac.getColorAsync(card.image[0]).then((color) => {
           hex = color.rgb;
-          let nums = parseInt(hex.replace(/[^\d]/g, "")) + 30;
-          hex = nums.toString().replace(/\B(?<!\.\d*)(?=(\d{3})+(?!\d))/g, ",");
+          hex = hex.replace(/[a-z{()}]/gi, "");
           if (!tumbler) {
             getProductCard();
             tumbler = true;
@@ -92,4 +91,5 @@ const getProductCard = () => {
       });
     });
 };
+
 getProductCard();

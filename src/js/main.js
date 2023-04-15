@@ -89,6 +89,6 @@ const openProduct = (cardHTML) => {
 };
 
 const getTrendingCards = getCards(trendingItems, "_sort=rating.rate&_order=desc&_limit=5");
-const getCheapProducts = getCards(underHundred, "price_lte=100");
+const getCheapProducts = getCards(underHundred, "_limit=5&price_lte=100&_sort=price&_order=desc");
 getTrendingCards;
 getCheapProducts;

@@ -56,9 +56,9 @@
         @media (min-width: 1080px) {
             max-height: 380px;
         }
+        border-radius: 8px;
       }
       &-img {
-        border-radius: 8px;
         min-width: 100%;
         max-height: 100%;
         @media (max-width: 860px) {
@@ -68,10 +68,12 @@
         }
         max-height: 380px;
         object-fit: contain;
+        border-radius: 8px;
       }
       &__row {
         display: flex;
         flex-wrap: wrap;
+        max-height: 423px;
         gap: 4px;
         .img-back {
           overflow: hidden;
@@ -139,7 +141,9 @@
         }
         .product_color,
         .product_sizes {
-          display: flex;
+          @media (min-width: 450px) {
+            display: flex;
+          }
           gap: 16px;
           font-weight: 500;
           font-size: 14px;

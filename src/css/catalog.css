@@ -25,12 +25,6 @@
   max-height: 450px;
 }
 
-.catalog::-webkit-scrollbar,
-.pagination-x::-webkit-scrollbar {
-  width: 0;
-  height: 0;
-}
-
 .catalog {
   overflow: hidden;
   max-height: 450px;
