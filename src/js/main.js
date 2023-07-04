@@ -31,7 +31,7 @@ const setLocalStorage = () => {
 
 const getCards = (element, filter) => {
   element.innerHTML = "";
-  fetch(`http://localhost:3000/products?${filter}`)
+  fetch(`https://stuff-shop-server.onrender.com/products?${filter}`)
     .then((res) => res.json())
     .then((res) => {
       res.forEach((card) => {

@@ -11,7 +11,7 @@ let category = location.href
 const getProductsCount = () => {
   paginationBtns.innerHTML = "";
   fetch(
-    `http://localhost:3000/products?${
+    `https://stuff-shop-server.onrender.com/products?${
       category !== "all" ? "category=" + category : ""
     }`
   )
@@ -56,7 +56,12 @@ function debounce(func, timeout = 600) {
   };
 }
 const processChange = debounce(() => {
-  getCards(catalog, `_page=${page}&${category !== "all" ? "category=" + category : ""}&_limit=5&title_like=${String(catalogSearch.value)}`);
+  getCards(
+    catalog,
+    `_page=${page}&${
+      category !== "all" ? "category=" + category : ""
+    }&_limit=5&title_like=${String(catalogSearch.value)}`
+  );
   // getProductsCount()
   // Проблема в том что внутри функции getProductsCount происходит повторный вызов функции getCards.
 });

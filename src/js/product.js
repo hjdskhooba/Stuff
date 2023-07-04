@@ -7,7 +7,7 @@ let addToCartBtn;
 let addToHeartBtn;
 
 const getProductCard = () => {
-  fetch(`http://localhost:3000/products?id=${id}`)
+  fetch(`https://stuff-shop-server.onrender.com/products?id=${id}`)
     .then((res) => res.json())
     .then((res) => {
       res.forEach((card) => {
