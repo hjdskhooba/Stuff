@@ -34,6 +34,7 @@ const getCards = (element, filter) => {
   fetch(`https://stuff-shop-server.onrender.com/products?${filter}`)
     .then((res) => res.json())
     .then((res) => {
+      element.innerHTML = "";
       res.forEach((card) => {
         element.innerHTML += `
         <div class="card">
